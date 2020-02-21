@@ -1,15 +1,12 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"golang.org/x/net/html/charset"
-	"golang.org/x/text/encoding"
 	"golang.org/x/text/transform"
-	"io"
 	"io/ioutil"
 	"net/http"
 	"os"
+	"regexp"
 )
 
 func main() {
@@ -31,7 +28,7 @@ func main() {
 
 	// alternative:
 	// if charset is gbk, we can simply replace the following
-	// resp.Body with utf8Reader
+	// resp.Body with utf8Reader instead of calling function determineCharset
 	// utf8Reader := transform.NewReader(resp.Body, simplifiedchinese.GBK.NewEncoder())
 
 	e, _ := determineCharset(resp.Body)
@@ -40,14 +37,18 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("%s", all)
+	printCityList(all)
 }
 
-func determineCharset(r io.Reader) (encoding.Encoding, string) {
-	bytes, err := bufio.NewReader(r).Peek(1024)
-	if err != nil {
-		return nil, ""
+
+
+func printCityList(contents []byte) {
+	re, _ := regexp.Compile(
+		`<a href="(http://www.zhenai.com/zhenghun/[0-9a-z]+)"[^>]*>([^<]+)</a>`)
+	// [^>]* -- zero or more character(s) but >
+	matches := re.FindAllSubmatch(contents, -1)
+	for _, match := range matches {
+		fmt.Printf("City: %s  URL: %s\n", match[2], match[1])
 	}
-	e, name, _ := charset.DetermineEncoding(bytes, "")
-	return e, name
+	fmt.Printf("Matches: %d\n", len(matches))
 }

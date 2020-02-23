@@ -7,9 +7,9 @@ import (
 )
 
 func TestParseProfile(t *testing.T) {
-	contents, err := ioutil.ReadFile("./profile_test_data.html")
+	contents, err := ioutil.ReadFile("./profile_test_data.txt")
 	if err != nil {
-		t.Errorf("an error occured when opening test file ./profile_test_data.html")
+		t.Errorf("an error occured when opening test file ./profile_test_data.txt")
 		return
 	}
 

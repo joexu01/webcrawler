@@ -12,14 +12,25 @@ import (
 	"net/http"
 )
 
+//var rateLimiter = time.Tick(10 * time.Millisecond)
+
 func Fetcher(url string) ([]byte, error) {
+	//<-rateLimiter
 	client := &http.Client{}
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		log.Fatalln(err)
 	}
 	req.Header.Set("User-Agent",
-		"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36")
+		"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36")
+	req.Header.Set("Cookie",
+		`sid=86ed93c9-5a72-42bd-9426-9559c53c9846; Hm_lvt_2c8ad67df9e787ad29dbd54ee608f5d2=1582443794; Hm_lpvt_2c8ad67df9e787ad29dbd54ee608f5d2=1582443794`)
+	req.Header.Set("Host",
+		"www.zhenai.com")
+	req.Header.Set("Proxy-Connection",
+		"keep-alive")
+
+
 	resp, err := client.Do(req)
 	if err != nil {
 		return nil, err

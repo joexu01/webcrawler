@@ -17,7 +17,7 @@ func TestParseCityList(t *testing.T) {
 		"City 阿坝", "City 阿克苏", "City 阿拉善盟",
 	}
 
-	contents, err := ioutil.ReadFile("./citylist_test_data.html")
+	contents, err := ioutil.ReadFile("./citylist_test_data.txt")
 	if err != nil {
 		panic(err)
 	}

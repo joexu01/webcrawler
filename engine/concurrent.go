@@ -7,13 +7,18 @@ import (
 type ConcurrentEngine struct {
 	Scheduler   Scheduler
 	WorkerCount int
+	ItemChan chan interface{}
 }
 
 type Scheduler interface {
 	Submit(Request)
-	ConfigureMasterWorkerChan(chan Request)
-	WorkerReady(chan Request)
+	ReadyNotifier
+	WorkChan() chan Request
 	Run()
+}
+
+type ReadyNotifier interface {
+	WorkerReady(chan Request)
 }
 
 func (e *ConcurrentEngine) Run(seeds ...Request) {
@@ -21,33 +26,39 @@ func (e *ConcurrentEngine) Run(seeds ...Request) {
 	e.Scheduler.Run()
 
 	for i := 0; i < e.WorkerCount; i++ {
-		createWorker(out, e.Scheduler)
+		createWorker(e.Scheduler.WorkChan(), out, e.Scheduler)
 	}
 
 	for _, r := range seeds {
+		if isDuplicate(r.Url) {
+			log.Printf("duplicate url: %s", r.Url)
+			continue
+		}
 		e.Scheduler.Submit(r)
 	}
 
-	itemCount := 0
 	for {
-		result := <- out
+		result := <-out
 		for _, item := range result.Items {
-			log.Printf("Got item #%d: %v\n",itemCount, item)
-			itemCount++
+			go func() { e.ItemChan <- item }()
 		}
 
+		// URL deduplication
 		for _, r := range result.Requests {
+			if isDuplicate(r.Url) {
+				log.Printf("duplicate url: %s", r.Url)
+				continue
+			}
 			e.Scheduler.Submit(r)
 		}
 	}
 }
 
-func createWorker(out chan ParseResult, s Scheduler) {
-	in := make(chan Request)
+func createWorker(in chan Request, out chan ParseResult, notifier ReadyNotifier) {
 	go func() {
 		for {
 			// tell scheduler i'm ready
-			s.WorkerReady(in)
+			notifier.WorkerReady(in)
 
 			request := <-in
 			result, err := worker(request)
@@ -57,4 +68,14 @@ func createWorker(out chan ParseResult, s Scheduler) {
 			out <- result
 		}
 	}()
+}
+
+var visitedUrls  = make(map[string]bool)
+
+func isDuplicate(url string) bool {
+	if visitedUrls[url] {
+		return true
+	}
+	visitedUrls[url] = false
+	return false
 }

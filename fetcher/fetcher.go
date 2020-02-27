@@ -24,7 +24,7 @@ func Fetcher(url string) ([]byte, error) {
 	req.Header.Set("User-Agent",
 		"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36")
 	req.Header.Set("Cookie",
-		`sid=86ed93c9-5a72-42bd-9426-9559c53c9846; Hm_lvt_2c8ad67df9e787ad29dbd54ee608f5d2=1582443794; Hm_lpvt_2c8ad67df9e787ad29dbd54ee608f5d2=1582443794`)
+		`sid=704502ff-4a9d-48bf-bb6f-2086e1b63f33`)
 	req.Header.Set("Host",
 		"www.zhenai.com")
 	req.Header.Set("Proxy-Connection",

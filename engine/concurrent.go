@@ -7,7 +7,7 @@ import (
 type ConcurrentEngine struct {
 	Scheduler   Scheduler
 	WorkerCount int
-	ItemChan chan interface{}
+	ItemChan    chan Item
 }
 
 type Scheduler interface {
@@ -76,6 +76,6 @@ func isDuplicate(url string) bool {
 	if visitedUrls[url] {
 		return true
 	}
-	visitedUrls[url] = false
+	visitedUrls[url] = true
 	return false
 }

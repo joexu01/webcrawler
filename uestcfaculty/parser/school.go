@@ -11,19 +11,18 @@ var (
 	teacherRe = regexp.MustCompile(`<h2><a href="(http://faculty.uestc.edu.cn/[^/]+/zh_CN/index.htm)" target="_blank">([^<]+)</a></h2>[^<]+<p>([^<]+)</p>`)
 	pageUrlRe = regexp.MustCompile(`<a href="(\?totalpage=[^&]+&PAGENUM=[0-9]+&urltype=[^&]+&wbtreeid=[^&]+&st=[^&]+&id=[^&]+&lang=zh_CN)" class="Next">下页</a>`)
 )
-func ParseSchool(contents []byte) engine.ParseResult {
+func ParseSchool(contents []byte, _ string) engine.ParseResult {
 	matches := teacherRe.FindAllSubmatch(contents, -1)
 
 	result := engine.ParseResult{}
 	for _, m := range matches {
+		url := string(m[1])
 		teacherName := string(m[2])
 		teacherPosition := string(m[3])
 		result.Requests = append(result.Requests,
 			engine.Request{
-				Url:        string(m[1]),
-				ParserFunc: func(contents []byte) engine.ParseResult {
-					return ParseTeacherProfile(contents, teacherName, teacherPosition)
-				},
+				Url:        url,
+				ParserFunc: TeacherParser(teacherName, teacherPosition),
 			})
 	}
 

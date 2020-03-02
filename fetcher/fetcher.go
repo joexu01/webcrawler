@@ -21,14 +21,16 @@ func Fetcher(url string) ([]byte, error) {
 	if err != nil {
 		log.Fatalln(err)
 	}
+	req.Header.Set(`Accept`, `text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3`)
 	req.Header.Set("User-Agent",
 		"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36")
 	req.Header.Set("Cookie",
-		`sid=704502ff-4a9d-48bf-bb6f-2086e1b63f33`)
+		`sid=4ae54d75-cf1a-475c-9b7c-2888826c75a5; __channelId=901045%2C0; Hm_lvt_2c8ad67df9e787ad29dbd54ee608f5d2=1582877923; Hm_lpvt_2c8ad67df9e787ad29dbd54ee608f5d2=1582877923`)
 	req.Header.Set("Host",
 		"www.zhenai.com")
 	req.Header.Set("Proxy-Connection",
 		"keep-alive")
+	req.Header.Set(`Upgrade-Insecure-Requests`, `1`)
 
 
 	resp, err := client.Do(req)

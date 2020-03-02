@@ -1,0 +1,465 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta name="renderer" content="webkit"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><title>陈爱国 中文主页 电子科技大学主页平台管理系统</title><META Name="keywords" Content="陈爱国," />
+<META Name="description" Content="陈爱国,chenaiguo,电子科技大学主页平台管理系统陈爱国," />
+<META Name="format-detection" Content="telephone=no" />
+
+
+
+
+
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta name="description" content="博达网站群——教师个人主页系统">
+<link rel="stylesheet" type="text/css" href="/_ts/mb1/style/style.css">
+<script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script>
+<script type="text/javascript" src="/_ts/mb1/js/jquery.SuperSlide.2.1.1.js"></script>
+<script language="javascript" type="text/javascript" src="/_ts/mb1/js/select_xuanze.js"></script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="/_ts/mb1/_sitegray/_sitegray_d.css" />
+<script language="javascript" src="/_ts/mb1/_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307e7847545253544403090000 -->
+<link rel="stylesheet" type="text/css" href="/mb1/index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" ></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1362265760)</script>
+</head>
+<body  style="min-width: 1090px;" style='visibility:hidden'> <div style='display:none;'><img src="/__local/D/B3/48/E435E521958299531E37BF90BAC_8145D72F_2D37C.jpg"  /></div>
+
+<style type="text/css">
+/**
+body{
+    margin:0;
+    padding:0;
+    font-family:"微软雅黑";
+    font-size:14px; background:url(/_ts/mb1/images/body_bg.png)
+}
+
+.wrapper{width:100%; background:url(/_ts/mb1/images/body_topbg.png) top center no-repeat; min-height:800px; background-size:100%; }
+*/
+
+body{
+    margin:0;
+    padding:0;
+    font-family:"微软雅黑";
+    font-size:14px;
+        background-image:url(/_ts/mb1/images/body_bg.png) ;
+        background-repeat:no-repeat;
+        background-position:top;
+
+}
+.wrapper{width:100%; background:url(/_ts/mb1/images/body_topbg.png) top center no-repeat; min-height:800px; background-size:100%; }
+</style>
+<div class="wrapper">
+<div class="con1090">
+<div class="header">
+
+
+<script language="javascript" src="/system/resource/tsites/tsitesclick.js"></script>
+<div class="langage">
+<a href="http://www.uestc.edu.cn">电子科技大学</a>
+        <a href="http://faculty.uestc.edu.cn/chenaiguo/en/index.htm">English</a>
+</div>
+<div class="logo">
+
+
+<script> var _tsites_com_view_mode_type_=8;</script>
+<a target="_blank" href="http://faculty.uestc.edu.cn"><img src="/__local/0/E6/0A/E459487A2D9C63DD1EA9F02D21B_C44020DD_5810.png" /></a></div>
+<div class="search"><script language="javascript" src="/system/resource/tsites/com/search/tsitesearch.js"></script><script language="javascript" src="/system/resource/js/base64.js"></script><form action="/chenaiguo/zh_CN/search/132239/search/result.htm" method="post" id="searchform155271" style="display:inline" onsubmit="return (new TsiteSearch()).checkSearch('searchform155271','keyWord_temp');">
+    <input type="hidden" name="tsites_search_content" id="tsites_search_content" value='' /><input type="hidden" name="_tsites_search_current_language_" id="_tsites_search_current_language_" value='zh_CN' />
+    <p class="s_kq fr">
+    <input type="input" name="keyWord_temp" id="keyWord_temp" class="fl s_kql" value=""/>
+     <input name="" type="submit" value="" class="fl s_kqr" />
+    </p>
+</form></div><!---导航开始--->
+<div>
+
+<ul id="nav" class="nav clearfix" style="visibility: hidden;">
+
+        <li class="nLi on" >
+            <h3><a href="/chenaiguo/zh_CN/index/132239/list/index.htm">首页</a></h3>
+        </li>
+
+
+        <li class="nLi " >
+            <h3><a href="/chenaiguo/zh_CN/zhym/132240/list/index.htm">科学研究</a></h3>
+               <ul class="sub">
+                   <li><a href="/chenaiguo/zh_CN/kyxm/132241/list/index.htm">科研项目</a></li>
+                   <li><a href="/chenaiguo/zh_CN/zzcg/132242/list/index.htm">著作成果</a></li>
+                   <li><a href="/chenaiguo/zh_CN/zlcg/132243/list/index.htm">专利</a></li>
+                   <li><a href="/chenaiguo/zh_CN/lwcg/132244/list/index.htm">论文成果</a></li>
+                   <li><a href="/chenaiguo/zh_CN/yjgk/132245/list/index.htm">研究领域</a></li>
+               </ul>
+        </li>
+
+
+        <li class="nLi " >
+            <h3><a href="/chenaiguo/zh_CN/zhym/132246/list/index.htm">教学研究</a></h3>
+               <ul class="sub">
+                   <li><a href="/chenaiguo/zh_CN/jxcg/132247/list/index.htm">教学成果</a></li>
+                   <li><a href="/chenaiguo/zh_CN/skxx/132248/list/index.htm">授课信息</a></li>
+                   <li><a href="/chenaiguo/zh_CN/jxzy/132249/list/index.htm">教学资源</a></li>
+               </ul>
+        </li>
+
+
+        <li class="nLi " >
+            <h3><a href="/chenaiguo/zh_CN/hjxx/132250/list/index.htm">获奖信息</a></h3>
+        </li>
+
+
+        <li class="nLi " >
+            <h3><a href="/chenaiguo/zh_CN/zsxx/132251/list/index.htm">招生信息</a></h3>
+        </li>
+
+
+        <li class="nLi " >
+            <h3><a href="/chenaiguo/zh_CN/xsxx/132252/list/index.htm">学生信息</a></h3>
+        </li>
+
+
+        <li class="nLi " >
+            <h3><a href="/chenaiguo/zh_CN/img/132253/list/index.htm">我的相册</a></h3>
+        </li>
+
+
+        <li class="nLi " >
+            <h3><a href="/chenaiguo/zh_CN/article/132254/list/index.htm">教师博客</a></h3>
+        </li>
+
+
+<!---导航更多--->
+<li class="nav_more"><a href="javascript:show_f(null, 'son_ul2');"  class="nav_more_t"></a>
+   <ul class="son_ul2" id="znmb1_other_navul" style="display:none"></ul>
+</li>
+<!---导航更多--->
+</ul>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+    var totalwidth = jQuery(".header").width()-jQuery("li.firstcd").width()-jQuery("li.nav_more").width()-40;
+    var allliwidth = 0;
+    var othernavary = new Array();
+    var znmb1_other_navul = jQuery("#znmb1_other_navul")[0];
+    var zwmbdh_nav = jQuery("#nav");
+    var navliobjlist =  new Array();
+    jQuery("#nav > li").each(function(){
+         var _li = jQuery(this);
+         if(!_li.hasClass("nav_more"))
+         {
+             navliobjlist.push(_li);
+         }
+    });
+    for(var i=0;i<navliobjlist.length;i++)
+    {
+        var liobj = navliobjlist[i];
+        if(liobj)
+        {
+            var jliobj = jQuery(liobj);
+            var liwidth = jliobj.width();
+            allliwidth+=liwidth;
+            if(allliwidth>=totalwidth)
+            {
+                jliobj.removeClass("nLi");
+                var templiobj = jliobj[0];
+                othernavary.push(templiobj);
+                zwmbdh_nav[0].removeChild(jliobj[0]);
+            }
+        }
+    }
+ if(allliwidth<totalwidth)
+    {
+        jQuery(".nav_more").css("display","none");
+    }else
+    {
+
+
+    for(var i=0;i<othernavary.length;i++)
+    {
+        znmb1_other_navul.appendChild(othernavary[i]);
+    }
+    }
+    jQuery("#nav").css("visibility","visible");
+});
+</script> <script id="jsID" type="text/javascript">
+            jQuery("#nav").slide({
+                type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+                titCell:".nLi", //鼠标触发对象
+                targetCell:".sub", //titCell里面包含的要显示/消失的对象
+                effect:"slideDown", //targetCell下拉效果
+                delayTime:300 , //效果时间
+                triggerTime:0, //鼠标延迟触发时间（默认150）
+                returnDefault:true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+            });
+        </script></div><!----导航结束----></div>
+<div class="clearboth"></div>
+<div class="main">
+<div class="p_left"><!---教师照片开始------>
+<div class="p_l_nr">
+<div class="t_photo"><img id="u_u5_1839pic"/><span>陈爱国 </span> <script language="javascript" src="/system/resource/tsites/imagescale.js"></script>
+<script type="text/javascript">
+ var u_u5_pic = new ImageScale("u_u5_",202,242,true,true);u_u5_pic.addimg("/__local/D/B3/48/E435E521958299531E37BF90BAC_8145D72F_2D37C.jpg","","陈爱国","1839");
+</script>
+</div>
+<div class="i-like">
+<table style="width: 100%;">
+<tr><td style="width: 50%;text-align: right;">
+<img src="/_ts/mb1/images/ico-heart-i.png" id="_parise_imgobj_u6" >
+</td><td style="width: 50%;text-align: left;">
+<span id="_parise_obj_u6"></span>
+</td></tr>
+</table><script language="javascript" src="/system/resource/tsites/TsitesPraiseUtil.js"></script>
+<script> var _TsitesPraiseUtil_u6= new TsitesPraiseUtil();_TsitesPraiseUtil_u6.setParam({'nodeid':'_parise_obj_u6','iscanclickidobj':'iscanclick_parise_obj_u6','pdtype':'0','imageid':'_parise_imgobj_u6','apptype':'index','uid':'1839','homepageid':9239,'limttype':'allpage','limithour':24,'contentid':0});</script>
+</div></div><!---教师照片结束------><!---节本信息开始------>
+<div class="p_l_nr">
+
+
+
+<h1 class="t_jbxx_t">个人信息<span>Personal Information</span></h1>
+<div class="t_jbxx_nr">
+<p>
+    研究员
+    硕士生导师
+</p>
+
+
+<!--性别-->
+<p>性别：男</p>
+<!--出生年月-->
+<!--毕业院校-->
+<p>毕业院校：北京邮电大学</p>
+<!--学历-->
+<p>学历：博士研究生毕业</p>
+<!--学位-->
+<p>学位：工学博士学位</p>
+<!--在职信息-->
+<p>在职信息：在岗</p>
+<!--所在单位-->
+<p>所在单位：计算机科学与工程学院（网络空间安全学院）</p>
+<!--入职时间-->
+<p>入职时间：2004-09-01</p>
+<!--所属院系-->
+<!--职务-->
+<!--
+-->
+<!--学科-->
+<p>学科：计算机应用技术<br>信息安全<br></p>
+
+<!--办公地点-->
+<p>办公地点：清水河校区主楼A2-301B</p>
+</div><script> var _tsites_com_view_mode_type_=8;</script>
+<script language="javascript" src="/system/resource/tsites/tsitesencrypt.js"></script>
+
+
+
+
+
+
+
+</div>
+<!---基本信息结束------><!---其他联系方式开始------>
+
+
+
+
+<!---其他联系方式结束------><!---二维码开始------>
+<div class="p_l_nr">
+<div class="t_2weima">
+<!-- 下面这个div是二维码容器,ID不能变-->
+<div id="outputu11" align="center"></div>
+<!-- 下面是生成二维码调用的JS，不要动-->
+<script src="/system/resource/qrcode/js/jquery.qrcode.js"></script>
+<script src="/system/resource/qrcode/js/qrcode.js"></script>
+<script>
+var codeInfo = "" ==""? window.location.href:"";
+jQuery(function(){
+    jQuery('#outputu11').qrcode({
+        text:codeInfo,
+        render: !!document.createElement('canvas').getContext?"canvas":"table",//设置渲染方式
+        width: 174,     //设置宽度
+        height: 172,     //设置高度
+        correctLevel: 0,//纠错等级
+        background: "#ffffff",//背景颜色
+        foreground: "#000000",//前景颜色
+        logo:""//图像logo
+    });
+})
+</script><span>扫描关注</span> </div></div><!---二维码结束------><!---二维码开始------>
+<div class="t_link">
+
+<a href="/chenaiguo/zh_CN/tzysd/132239/list/index.htm">同专业硕导</a>
+</div><!---二维码结束------></div>
+<div class="p_right"><!---教师个人简历开始------>
+
+
+
+
+<div class="p_r_nr " style="border-top: #05b4a3 4px solid">
+<h1 class="t_grjj">个人简介<span>Personal Profile</span></h1>
+                <div class="t_grjj_nr">
+                    <p style="text-indent: 0em; "><p>博士，研究员<br /></p><p>国家信标委云计算标准工作组 参编专家<br /></p><p><span style="font-size: 16px;">四川省海外高层次留学人才</span></p><p><span style="font-size: 16px;">美国亚利桑那州立大学访问学者</span></p><p><span style="font-size: 16px;">中国计算机学会高级会员</span></p><p><span style="font-size: 16px;">长期从事云计算、大数据、人工智能技术研究，在国内外期刊和会议发表的SCI、EI检索论文20余篇，申请国家发明专利20余项。主持完成国家级和省部级项目6项，主持或主研完成其他项目30余项，包括国家载人航天国家重大专项、总装重点基金、军口863计划、科技部重点研发计划，以及国家发改委重大工程等。曾获得国家技术发明二等奖、四川省科技进步一等奖、四川省技术发明一等奖。</span></p><p><!--5f39ae17-8c62-4a45-bc43-b32064c9388a:W3siYmxvY2tJZCI6IjMyMTctMTU3MDY4NTc5NDY5OCIsImJsb2NrVHlwZSI6InBhcmFncmFwaCIsInN0eWxlcyI6eyJhbGlnbiI6ImxlZnQiLCJpbmRlbnQiOjAsInRleHQtaW5kZW50IjowLCJsaW5lLWhlaWdodCI6MS43NSwiYmFjay1jb2xvciI6IiIsInBhZGRpbmciOiIifSwidHlwZSI6InBhcmFncmFwaCIsInJpY2hUZXh0Ijp7ImRhdGEiOlt7ImNoYXIiOiLpmYgiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueIsSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Zu9Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fV0sImlzUmljaFRleHQiOnRydWUsImtlZXBMaW5lQnJlYWsiOnRydWV9fSx7ImJsb2NrSWQiOiIzODY0LTE1NzA2ODU3OTcwOTEiLCJibG9ja1R5cGUiOiJwYXJhZ3JhcGgiLCJzdHlsZXMiOnsiYWxpZ24iOiJsZWZ0IiwiaW5kZW50IjowLCJ0ZXh0LWluZGVudCI6MCwibGluZS1oZWlnaHQiOjEuNzUsImJhY2stY29sb3IiOiIiLCJwYWRkaW5nIjoiIn0sInR5cGUiOiJwYXJhZ3JhcGgiLCJyaWNoVGV4dCI6eyJkYXRhIjpbeyJjaGFyIjoi5Y2aIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlo6siLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6Iu+8jCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi56CUIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnqbYiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWRmCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX1dLCJpc1JpY2hUZXh0Ijp0cnVlLCJrZWVwTGluZUJyZWFrIjp0cnVlfX0seyJibG9ja0lkIjoiMTE5MC0xNTcwNjg1Nzk3MDkxIiwiYmxvY2tUeXBlIjoicGFyYWdyYXBoIiwic3R5bGVzIjp7ImFsaWduIjoibGVmdCIsImluZGVudCI6MCwidGV4dC1pbmRlbnQiOjAsImxpbmUtaGVpZ2h0IjoxLjc1LCJiYWNrLWNvbG9yIjoiIiwicGFkZGluZyI6IiJ9LCJ0eXBlIjoicGFyYWdyYXBoIiwicmljaFRleHQiOnsiZGF0YSI6W3siY2hhciI6IuKAnCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5LqRIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmk40iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuS9nCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi57O7Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnu58iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueglCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Y+RIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkuI4iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuW6lCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi55SoIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLigJ0iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWbvSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5a62Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlnLAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuaWuSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6IGUIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlkIgiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuW3pSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi56iLIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnoJQiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueptiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5LitIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlv4MiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IiAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWJryIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Li7Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLku7siLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19XSwiaXNSaWNoVGV4dCI6dHJ1ZSwia2VlcExpbmVCcmVhayI6dHJ1ZX19LHsiYmxvY2tJZCI6Ijk0MzMtMTU3MDY4NTc5NzA5MSIsImJsb2NrVHlwZSI6InBhcmFncmFwaCIsInN0eWxlcyI6eyJhbGlnbiI6ImxlZnQiLCJpbmRlbnQiOjAsInRleHQtaW5kZW50IjowLCJsaW5lLWhlaWdodCI6MS43NSwiYmFjay1jb2xvciI6IiIsInBhZGRpbmciOiIifSwidHlwZSI6InBhcmFncmFwaCIsInJpY2hUZXh0Ijp7ImRhdGEiOlt7ImNoYXIiOiLigJwiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWPryIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5L+hIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkupEiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuiuoSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi566XIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkuI4iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWkpyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5pWwIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmja4iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuKAnSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5ZubIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlt50iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuecgSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6YeNIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLngrkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWuniIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6aqMIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlrqQiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IiAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWJryIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Li7Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLku7siLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19XSwiaXNSaWNoVGV4dCI6dHJ1ZSwia2VlcExpbmVCcmVhayI6dHJ1ZX19LHsiYmxvY2tJZCI6Ijg3OTgtMTU3MDY4NTc5NzA5MSIsImJsb2NrVHlwZSI6InBhcmFncmFwaCIsInN0eWxlcyI6eyJhbGlnbiI6ImxlZnQiLCJpbmRlbnQiOjAsInRleHQtaW5kZW50IjowLCJsaW5lLWhlaWdodCI6MS43NSwiYmFjay1jb2xvciI6IiIsInBhZGRpbmciOiIifSwidHlwZSI6InBhcmFncmFwaCIsInJpY2hUZXh0Ijp7ImRhdGEiOlt7ImNoYXIiOiLlm70iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWutiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5L+hIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmoIciLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWnlCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5LqRIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLorqEiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueulyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5qCHIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlh4YiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuW3pSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5L2cIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnu4QiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IiAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWPgiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi57yWIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkuJMiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWutiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX1dLCJpc1JpY2hUZXh0Ijp0cnVlLCJrZWVwTGluZUJyZWFrIjp0cnVlfX0seyJibG9ja0lkIjoiMDA2My0xNTcwNjg1Nzk3MDkxIiwiYmxvY2tUeXBlIjoicGFyYWdyYXBoIiwic3R5bGVzIjp7ImFsaWduIjoibGVmdCIsImluZGVudCI6MCwidGV4dC1pbmRlbnQiOjAsImxpbmUtaGVpZ2h0IjoxLjc1LCJiYWNrLWNvbG9yIjoiIiwicGFkZGluZyI6IiJ9LCJ0eXBlIjoicGFyYWdyYXBoIiwicmljaFRleHQiOnsiZGF0YSI6W3siY2hhciI6IuWbmyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5bedIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnnIEiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6Iua1tyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5aSWIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLpq5giLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWxgiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5qyhIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnlZkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWtpiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Lq6Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmiY0iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19XSwiaXNSaWNoVGV4dCI6dHJ1ZSwia2VlcExpbmVCcmVhayI6dHJ1ZX19LHsiYmxvY2tJZCI6Ijc5MjktMTU3MDY4NTc5NzA5MSIsImJsb2NrVHlwZSI6InBhcmFncmFwaCIsInN0eWxlcyI6eyJhbGlnbiI6ImxlZnQiLCJpbmRlbnQiOjAsInRleHQtaW5kZW50IjowLCJsaW5lLWhlaWdodCI6MS43NSwiYmFjay1jb2xvciI6IiIsInBhZGRpbmciOiIifSwidHlwZSI6InBhcmFncmFwaCIsInJpY2hUZXh0Ijp7ImRhdGEiOlt7ImNoYXIiOiLnvo4iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWbvSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5LqaIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLliKkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuahkSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6YKjIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlt54iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueriyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5aSnIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlraYiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuiuvyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6ZeuIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlraYiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuiAhSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX1dLCJpc1JpY2hUZXh0Ijp0cnVlLCJrZWVwTGluZUJyZWFrIjp0cnVlfX0seyJibG9ja0lkIjoiNDU5My0xNTcwNjg1Nzk3MDkxIiwiYmxvY2tUeXBlIjoicGFyYWdyYXBoIiwic3R5bGVzIjp7ImFsaWduIjoibGVmdCIsImluZGVudCI6MCwidGV4dC1pbmRlbnQiOjAsImxpbmUtaGVpZ2h0IjoxLjc1LCJiYWNrLWNvbG9yIjoiIiwicGFkZGluZyI6IiJ9LCJ0eXBlIjoicGFyYWdyYXBoIiwicmljaFRleHQiOnsiZGF0YSI6W3siY2hhciI6IuS4rSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Zu9Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLorqEiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueulyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5py6Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlraYiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuS8miIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6auYIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnuqciLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuS8miIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5ZGYIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fV0sImlzUmljaFRleHQiOnRydWUsImtlZXBMaW5lQnJlYWsiOnRydWV9fSx7ImJsb2NrSWQiOiIzOTEyLTE1NzA2ODU3OTcwOTEiLCJibG9ja1R5cGUiOiJwYXJhZ3JhcGgiLCJzdHlsZXMiOnsiYWxpZ24iOiJsZWZ0IiwiaW5kZW50IjowLCJ0ZXh0LWluZGVudCI6MCwibGluZS1oZWlnaHQiOjEuNzUsImJhY2stY29sb3IiOiIiLCJwYWRkaW5nIjoiIn0sInR5cGUiOiJwYXJhZ3JhcGgiLCJyaWNoVGV4dCI6eyJkYXRhIjpbeyJjaGFyIjoi6ZW/Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmnJ8iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuS7jiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5LqLIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkupEiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuiuoSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi566XIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLjgIEiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWkpyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5pWwIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmja4iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuOAgSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Lq6Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlt6UiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuaZuiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6IO9Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmioAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuacryIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi56CUIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnqbYiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6Iu+8jCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5ZyoIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlm70iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWGhSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5aSWIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmnJ8iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWIiiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5ZKMIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkvJoiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuiuriIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Y+RIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLooagiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueahCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoiUyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoiQyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoiSSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi44CBIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiJFIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiJJIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmo4AiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6Iue0oiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6K66Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmlociLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IjIiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IjAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuS9mSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi56+HIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLvvIwiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueUsyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6K+3Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlm70iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWutiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Y+RIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmmI4iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuS4kyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5YipIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiIyIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiIwIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkvZkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IumhuSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi44CCIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkuLsiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuaMgSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5a6MIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmiJAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWbvSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5a62Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnuqciLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWSjCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi55yBIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLpg6giLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6Iue6pyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6aG5Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnm64iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IjYiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IumhuSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi77yMIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkuLsiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuaMgSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5oiWIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkuLsiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueglCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5a6MIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmiJAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWFtiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5LuWIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLpobkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuebriIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoiMyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoiMCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5L2ZIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLpobkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6Iu+8jCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5YyFIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmi6wiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWbvSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5a62Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLovb0iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuS6uiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6IiqIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlpKkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWbvSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5a62Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLph40iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWkpyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5LiTIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLpobkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuOAgSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5oC7Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLoo4UiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IumHjSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi54K5Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLln7oiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IumHkSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi44CBIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlhpsiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWPoyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoiOCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoiNiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoiMyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6K6hIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLliJIiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuOAgSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi56eRIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmioAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IumDqCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6YeNIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLngrkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueglCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Y+RIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLorqEiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWIkiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi77yMIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLku6UiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWPiiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Zu9Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlrrYiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWPkSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5pS5Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlp5QiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IumHjSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5aSnIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlt6UiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IueoiyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi562JIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLjgIIiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuabviIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi6I63Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlvpciLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWbvSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5a62Iiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmioAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuacryIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5Y+RIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmmI4iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuS6jCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi562JIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlpZYiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuOAgSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5ZubIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlt50iLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuecgSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi56eRIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLmioAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6Iui/myIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5q2lIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLkuIAiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuetiSIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5aWWIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLjgIEiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWbmyIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5bedIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnnIEiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuaKgCIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5pyvIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLlj5EiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuaYjiIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi5LiAIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fSx7ImNoYXIiOiLnrYkiLCJzdHlsZXMiOnsiZm9udC1zaXplIjoxNn19LHsiY2hhciI6IuWlliIsInN0eWxlcyI6eyJmb250LXNpemUiOjE2fX0seyJjaGFyIjoi44CCIiwic3R5bGVzIjp7ImZvbnQtc2l6ZSI6MTZ9fV0sImlzUmljaFRleHQiOnRydWUsImtlZXBMaW5lQnJlYWsiOnRydWV9fV0=--></p><p><br /></p>
+</p>
+</div>
+</div>
+<!---教师个人简历结束------><!---教育经历开始------>
+<div class="slideTxtBox" style="background: url(/_ts/mb1/images/t_r_zsbg.png) #fff no-repeat right top; padding-bottom: 15px; padding-top: 20px; padding-left: 10px; padding-right: 0px">
+<div class="hd">
+<ul>
+<li>教育经历<span >Education Background</span> </li>
+<li>工作经历<span >Work Experience</span></li>
+</ul></div>
+<div class="bd">
+<ul class="t_edu_nr"><a>
+<div class="t_e_date">
+<span class="t_e_date_n">2000.9</span>
+<span class="t_e_date_s">2004.7</span>
+</div>
+<ul class="jyjlulu17">
+<li >电子科技大学</li>
+<li >电子信息工程</li>
+
+<li >工学学士学位</li>
+</ul>
+</a>
+<a>
+<div class="t_e_date">
+<span class="t_e_date_n">2004.9</span>
+<span class="t_e_date_s">2009.7</span>
+</div>
+<ul class="jyjlulu17">
+<li >北京邮电大学</li>
+<li >信号与信息处理</li>
+
+<li >工学博士学位</li>
+</ul>
+</a>
+
+<script>
+jQuery(document).ready(function(){
+  var lastliobj = jQuery("ul.jyjlulu17").each(function(){
+      var ulobj = jQuery(this);
+      var allli = ulobj.children();
+     if(allli.length>0){
+    allli[allli.length-1].style.background="none";
+}
+  });
+});
+</script>
+<style>
+.lxxstarttime{
+width:75px;
+}
+
+</style>
+</ul>
+<ul class="t_edu_nr"><a>
+<div class="t_e_date">
+<span class="t_e_date_n">2013.1</span>
+<span class="t_e_date_s">2014.1</span>
+</div>
+<ul class="gzjlu18">
+<li>美国亚利桑那州立大学</li>
+<li>访问学者</li>
+</ul>
+</a>
+<a>
+<div class="t_e_date">
+<span class="t_e_date_n">2009.7</span>
+<span class="t_e_date_s">至今</span>
+</div>
+<ul class="gzjlu18">
+<li>电子科技大学计算机学院</li>
+<li>副教授</li>
+</ul>
+</a>
+<a>
+<div class="t_e_date">
+<span class="t_e_date_n">2004.9</span>
+<span class="t_e_date_s">2009.6</span>
+</div>
+<ul class="gzjlu18">
+<li>电子科技大学电子工程学院</li>
+<li>师资学生</li>
+</ul>
+</a>
+
+
+
+<script>
+jQuery(document).ready(function(){
+  var lastliobj = jQuery("ul.gzjlu18").each(function(){
+      var ulobj = jQuery(this);
+      var allli = ulobj.children();
+      if(allli.length>0){
+    allli[allli.length-1].style.background="none";
+}
+
+  });
+});
+</script>  </ul></div><script type="text/javascript">jQuery(".slideTxtBox").slide();</script></div><!---教育经历结束------><!---社会兼职开开始------>
+<div class="slideTxtBox2" style="background: url(/_ts/mb1/images/body_topbg2.png) #fff no-repeat right top; padding-bottom: 15px; padding-top: 20px; padding-left: 15px; margin: 20px 0px; padding-right: 0px">
+<div class="hd">
+<ul>
+<li>
+
+研究方向<span >Research Focus</span> </li>
+<li>社会兼职<span >Social Affiliations</span></li>
+</ul></div>
+<div class="bd">
+<ul>
+
+暂无内容
+
+</ul>
+<ul class="shjz-list">暂无内容
+
+<script>
+jQuery(document).ready(function(){
+  var lastliobj = jQuery("ul.shjlu22").each(function(){
+      var ulobj = jQuery(this);
+      var allli = ulobj.children();
+      if(allli.length>0){
+    allli[allli.length-1].style.background="none";
+}
+
+  });
+});
+</script>
+
+
+</ul></div></div><script type="text/javascript">jQuery(".slideTxtBox2").slide();</script><!---社会兼职开结束------><!---团队开始------>
+
+
+
+<script type="text/javascript">
+ var u_u23_pic = new ImageScale("u_u23_",114,118,true,true);
+</script>
+</div><!---团队结束------>
+<div class="clearboth"></div></div>
+<div class="clearboth"></div>
+<div class="footer" style="overflow: hidden">
+<div class="ltxt fl">
+
+
+清水河校区：成都市高新区（西区）西源大道2006号　邮编： 611731 &nbsp; <BR>沙河校区：成都市建设北路二段四号　邮编：610054<BR>蜀ICP备 05006379 号 &nbsp; I　川公网安备 51019002000280 号 </div>
+<div class="rtxt fr">
+
+        <a href="javascript:void(0);" title="手机版" onclick="_vsb_multiscreen.setDevice('mobile')" class="m_link" href="#">手机版</a>
+
+
+访问量：<span id="u26_click"></span>次<script  type='text/javascript'>jQuery(document).ready(function(){(new TsitesClickUtil()).getHomepageClickByType(document.getElementById('u26_click'),0,10,'homepage_total','1839',9239);})</script>
+
+<script language="javascript" src="/system/resource/tsites/latestupdatetime.js"></script>
+<p style="margin-top:0px;margin-bottom: 0px;">开通时间： <span id="u27_opentime_year"></span>.<span id="u27_opentime_month"></span>.<span id="u27_opentime_day"></span></p>
+<p style="margin-top:0px;">最后更新时间： <span id="u27_latestupdatetime_year"></span>.<span id="u27_latestupdatetime_month"></span>.<span id="u27_latestupdatetime_day"></span></p>
+
+
+<script>(new TsitesLatestUpdate()).getHomepageLatestUpdateTime(document.getElementById('u27_latestupdatetime_year'),document.getElementById('u27_latestupdatetime_month'),document.getElementById('u27_latestupdatetime_day'),'155391','1839',9239,0,false,1362265760);</script>
+<script>(new TsitesLatestUpdate()).getTeacherHomepageOpenTime(document.getElementById('u27_opentime_year'),document.getElementById('u27_opentime_month'),document.getElementById('u27_opentime_day'),'155391','1839',9239,0,false,1362265760);</script>
+
+
+</div></div></div></div>
+
+</body></html>
+<script>$(function(){$('body').css('visibility','visible');});</script>

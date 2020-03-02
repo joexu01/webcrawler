@@ -9,6 +9,7 @@ import (
 
 var ageRe = regexp.MustCompile(
 	`<div.+purple[^>]+>([\d]+)岁</div>`)
+
 //var nameRe = regexp.MustCompile(
 //	`<h1 data-v-5b109fc3="" class="nickName">([^<]+)</h1>`)
 var heightRe = regexp.MustCompile(
@@ -17,8 +18,9 @@ var locationRe = regexp.MustCompile(
 	`<div.+purple[^>]+>工作地:([^<]+)</div>`)
 var incomeRe = regexp.MustCompile(
 	`<div.+purple[^>]+>月收入:([^<]+)</div>`)
+var idUrlRe = regexp.MustCompile(`http://album.zhenai.com/([\d]+)`)
 
-func ParseProfile(contents []byte, name string) engine.ParseResult {
+func ParseProfile(contents []byte, name string, url string) engine.ParseResult {
 	profile := model.Profile{}
 
 	age, err := strconv.Atoi(extractString(contents, ageRe))
@@ -37,7 +39,13 @@ func ParseProfile(contents []byte, name string) engine.ParseResult {
 
 	result := engine.ParseResult{
 		Requests: nil,
-		Items:    []interface{}{profile},
+		Items: []engine.Item{
+			{
+				Url:     url,
+				Id:      extractString([]byte(url), idUrlRe),
+				Payload: profile,
+			},
+		},
 	}
 	return result
 }
@@ -48,4 +56,10 @@ func extractString(contents []byte, re *regexp.Regexp) string {
 		return string(match[1])
 	}
 	return ""
+}
+
+func ProfileParser(name string) engine.ParserFunc {
+	return func(c []byte, url string) engine.ParseResult {
+		return ParseProfile(c, name, url)
+	}
 }

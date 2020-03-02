@@ -1,0 +1,773 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>计算机科学与工程学院（网络空间安全学院）教师列表-电子科技大学教师个人主页</title><META Name="keywords" Content="电子科技大学教师个人主页" />
+
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/lrtk.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/koala.min.js"></script>
+   <script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.inactive span').click(function(event){
+                event.stopPropagation();
+                event.preventDefault();
+                if($(this).parent().siblings('ul').css('display')=='none'){
+                    $(this).parent('li').siblings('li').removeClass('inactives');
+                    $(this).parent().addClass('inactives');
+                    $(this).parent().siblings('ul').slideDown(100).children('li');
+                    if($(this).parents('li').siblings('li').children('ul').css('display')=='block'){
+                        $(this).parents('li').siblings('li').children('ul').parent('li').children('a').removeClass('inactives');
+                        $(this).parents('li').siblings('li').children('ul').slideUp(100);
+
+                    }
+                }else{
+                    //控制自身变成+号
+                    $(this).parent().removeClass('inactives');
+                    //控制自身菜单下子菜单隐藏
+                    $(this).parent().siblings('ul').slideUp(100);
+                    //控制自身子菜单变成+号
+                    $(this).parent().siblings('ul').children('li').children('ul').parent('li').children('a').addClass('inactives');
+                    //控制自身菜单下子菜单隐藏
+                    $(this).parent().siblings('ul').children('li').children('ul').slideUp(100);
+
+                    //控制同级菜单只保持一个是展开的（-号显示）
+                    $(this).parent().siblings('ul').children('li').children('a').removeClass('inactives');
+                }
+            })
+        });
+    </script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307e7847545253544403090000 -->
+<link rel="stylesheet" type="text/css" href="xylb.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" ></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1021,'/xylb.jsp',-1,1362264394)</script>
+</head>
+
+<style>
+    ul.yiji  li span {
+        display:inline-block;
+        width:36px;
+        height:36px;
+        background:url(images/off.png) no-repeat center center;
+        position:absolute;
+        right:6px;
+        top:50%;
+        margin-top:-18px;}
+
+    ul.yiji  li .inactives span {
+        display:inline-block;
+        width:36px;
+        height:36px;
+        background:url(images/on.png) no-repeat center center;}
+</style>
+
+<body >
+<header>
+    <div class="nav fl" >
+        <ul style="overflow: hidden" style="padding-left: 30px;">
+     <li  style="margin-right: 13px;"><a href="index.jsp"  title="首页">首页</a>
+   </li>
+     <li  ><a href="kytd.jsp?urltype=tree.TreeTempUrl&wbtreeid=1033"  title="科研团队">科研团队</a>
+   </li>
+     <li  ><a href="jcrc.jsp?urltype=tree.TreeTempUrl&wbtreeid=1031"  title="杰出人才">杰出人才</a>
+   </li>
+     <li class="Navcurrent" ><a href="xylb.jsp?urltype=tree.TreeTempUrl&wbtreeid=1021"  title="学院列表">学院列表</a>
+   </li>
+     <li  ><a href="jsjs.jsp?urltype=tree.TreeTempUrl&wbtreeid=1011"  title="教师检索">教师检索</a>
+   </li>
+     <li  ><a href="gyzy.jsp?urltype=tree.TreeTempUrl&wbtreeid=1003"  title="关于主页">关于主页</a>
+   </li>
+ </ul>
+</div>
+
+
+
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1002" style="float:left">
+
+<img class="logo" src="images/logo1.png">
+
+</a>
+
+
+    <div class="function fr" style="padding-right:30px;">
+        <ul>
+            <script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script>    <LI class="denglu"><a href="http://222.197.164.129:8080/system/caslogin.jsp"  title="" onclick="_addDynClicks(&#34;wburl&#34;, 1362264394, 4668)">登录</a></li>
+
+                <LI class="yingwen"><a href="http://faculty-en.uestc.edu.cn/"  title="" onclick="_addDynClicks(&#34;wburl&#34;, 1362264394, 4667)">英文</a></li>
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script> <script>
+var TsiteSearch = function() {
+    var _this = this;
+    _this.checkSearch = function(formid,keywordid) {
+        var  keyword= document.getElementById(keywordid);
+
+        if (!keyword) {
+            return false;
+        }
+        var _tsites_search_current_language_ = document.getElementById("_tsites_search_current_language_");
+        var _language = 'zh_CN';
+        if(_tsites_search_current_language_)
+        {
+            _language = _tsites_search_current_language_.value;
+        }
+        var keywordValue = keyword.value;
+
+        if (keywordValue == null || keywordValue == undefined || keywordValue.length <= 0 || keywordValue=='请输入教师名称') {
+            if(_language=="zh_CN")
+            {
+                alert("请输入检索内容");
+            }else
+            {
+                alert("Please enter the contents of the search");
+            }
+            return false;
+        }
+
+        var keywords = jQuery("#tsites_search_name_content");
+        if(keywords)
+        {
+            keywords.val((new Base64()).encode(keywordValue))
+        }
+
+        return true;
+    }
+}
+</script>
+ <li class="s_kq">
+<form action="mcjs.jsp?urltype=tree.TreeTempUrl&wbtreeid=1035" method="post" id="searchform225621" style="display:inline" onsubmit="return (new TsiteSearch()).checkSearch('searchform225621','keyword_u4');">
+   <input type="hidden" name="tsites_search_name_content" id="tsites_search_name_content" >
+    <input class="fl s_kql" type="input" name="keyword_u4" id="keyword_u4" value="请输入教师名称" onfocus="this.style.color='#666';if (value =='请输入教师名称'){value =''}" onblur="this.style.color='#666';if (value ==''){value='请输入教师名称'}" />
+
+    <input class="fl s_kqr" type="submit" value=""  >
+</form>
+ </li>
+
+        </ul>
+
+    </div>
+</header>
+
+<!--内页banner-->
+<div class="common n_b">
+    <img src="images/n_b.jpg">
+    <div class="Letter">
+
+         <div class="zim"   style="display：none">
+    <p>快速检索（按姓氏）</p>
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=a&lang=zh_CN"  >A</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=b&lang=zh_CN"  >B</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=c&lang=zh_CN"  >C</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=d&lang=zh_CN"  >D</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=e&lang=zh_CN"  >E</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=f&lang=zh_CN"  >F</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=g&lang=zh_CN"  >G</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=h&lang=zh_CN"  >H</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=i&lang=zh_CN"  >I</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=j&lang=zh_CN"  >J</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=k&lang=zh_CN"  >K</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=l&lang=zh_CN"  >L</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=m&lang=zh_CN"  >M</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=n&lang=zh_CN"  >N</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=o&lang=zh_CN"  >O</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=p&lang=zh_CN"  >P</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=q&lang=zh_CN"  >Q</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=r&lang=zh_CN"  >R</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=s&lang=zh_CN"  >S</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=t&lang=zh_CN"  >T</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=u&lang=zh_CN"  >U</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=v&lang=zh_CN"  >V</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=w&lang=zh_CN"  >W</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=x&lang=zh_CN"  >X</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=y&lang=zh_CN"  >Y</a>
+
+
+
+
+
+        <a href="pyjslb.jsp?urltype=tsites.PinYinTeacherList&wbtreeid=1021&py=z&lang=zh_CN"  >Z</a>
+
+
+
+</div>
+    </div>
+</div>
+<div class="common">
+<div class="location">
+            <div class="l_icon">
+            </div>
+    当前位置 :
+                        <a href="index.jsp">首页</a>
+                >
+                <a href="xylb.jsp?urltype=tree.TreeTempUrl&wbtreeid=1021">学院列表</a>
+                >
+                计算机科学与工程学院（网络空间安全学院）
+</div>
+</div>
+<div class="common">
+<!--内页left-->
+<div class="fl nei_left">
+        <div class="fr lbb">
+                <div class="list">
+                <ul class="yiji">
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2038&lang=zh_CN#collegeteacher" ><p style="width: 100%;">信息与通信工程学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2037&lang=zh_CN#collegeteacher" ><p style="width: 100%;">电子科学与工程学院（示范性微电子学院）</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2036&lang=zh_CN#collegeteacher" ><p style="width: 100%;">材料与能源学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2035&lang=zh_CN#collegeteacher" ><p style="width: 100%;">机械与电气工程学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2034&lang=zh_CN#collegeteacher" ><p style="width: 100%;">光电科学与工程学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2033&lang=zh_CN#collegeteacher" ><p style="width: 100%;">自动化工程学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2032&lang=zh_CN#collegeteacher" ><p style="width: 100%;">资源与环境学院</p></a>
+</li>
+    <li id="shuchu" ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2031&lang=zh_CN#collegeteacher" style="background: #c6201a;
+    color: #fff;"><p style="width: 100%;">计算机科学与工程学院（网络空间安全学院）</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2030&lang=zh_CN#collegeteacher" ><p style="width: 100%;">信息与软件工程学院（示范性软件学院）</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2029&lang=zh_CN#collegeteacher" ><p style="width: 100%;">航空航天学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2028&lang=zh_CN#collegeteacher" ><p style="width: 100%;">数学科学学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2027&lang=zh_CN#collegeteacher" ><p style="width: 100%;">物理学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2026&lang=zh_CN#collegeteacher" ><p style="width: 100%;">医学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2025&lang=zh_CN#collegeteacher" ><p style="width: 100%;">生命科学与技术学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2024&lang=zh_CN#collegeteacher" ><p style="width: 100%;">经济与管理学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2023&lang=zh_CN#collegeteacher" ><p style="width: 100%;">公共管理学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2022&lang=zh_CN#collegeteacher" ><p style="width: 100%;">外国语学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2021&lang=zh_CN#collegeteacher" ><p style="width: 100%;">马克思主义学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2020&lang=zh_CN#collegeteacher" ><p style="width: 100%;">格拉斯哥学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2019&lang=zh_CN#collegeteacher" ><p style="width: 100%;">体育部</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2018&lang=zh_CN#collegeteacher" ><p style="width: 100%;">基础与前沿研究院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2017&lang=zh_CN#collegeteacher" ><p style="width: 100%;">通信抗干扰国家级重点实验室</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2016&lang=zh_CN#collegeteacher" ><p style="width: 100%;">电子科学技术研究院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2015&lang=zh_CN#collegeteacher" ><p style="width: 100%;">电子科技大学广东信息工程研究院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2014&lang=zh_CN#collegeteacher" ><p style="width: 100%;">电子科技大学无锡研究院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2013&lang=zh_CN#collegeteacher" ><p style="width: 100%;">电子科技大学成都研究院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2042&lang=zh_CN#collegeteacher" ><p style="width: 100%;">英才实验学院</p></a>
+</li>
+    <li  ><a href="xylb.jsp?urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2012&lang=zh_CN#collegeteacher" ><p style="width: 100%;">机关及其他单位</p></a>
+</li>
+ </ul>
+</div>
+
+<script>
+$(document).ready(function(){
+
+});
+</script>
+
+
+
+
+
+
+
+
+ </div>
+
+
+</div>
+
+    <script>
+
+
+        $(".lb ul li").click(function(){
+            $(this).addClass("currenta").siblings().removeClass("currenta");
+        })
+    </script>
+<!--内页right-->
+<div class="fr nei_right">
+    <!--当前位置-->
+      <!--当前位置-->
+
+
+
+
+
+
+
+<script language="javascript" src="/system/resource/tsites/imagescale.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+ var u_u9_pic = new ImageScale("u_u9_",150,180,true,true);u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/longwenlai/zh_CN/index.htm","龙文来","11386");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/hanshijiao/zh_CN/index.htm","韩世蛟","14475");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/caihongbin/zh_CN/index.htm","蔡洪斌","2425");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/caishimin/zh_CN/index.htm","蔡世民","5044");u_u9_pic.addimg("/__local/D/B3/48/E435E521958299531E37BF90BAC_8145D72F_2D37C.jpg","/chenaiguo/zh_CN/index.htm","陈爱国","10700");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/chenduanbing/zh_CN/index.htm","陈端兵","4396");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/chenfu/zh_CN/index.htm","陈洑","1650");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/chenjianzhang/en/index.htm","陈建章","11367");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/chenjuan1/zh_CN/index.htm","陈娟","4827");u_u9_pic.addimg("/__local/8/04/69/9C87A5038FCD24100CC9E5AF44A_D4E98A1A_3C3C82.png","/chenting/zh_CN/index.htm","陈厅","5291");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/daibo/zh_CN/index.htm","戴波","2560");u_u9_pic.addimg("/__local/3/59/B1/152FBF7CC31192AB0B03FDC79FA_48D9B930_F638.png","/daiyuanshun/zh_CN/index.htm","戴元顺","5061");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/dengjian/zh_CN/index.htm","邓建","1889");u_u9_pic.addimg("/system/resource/tsites/images/defaultteacherimg.png","/dingxuyang/zh_CN/index.htm","丁旭阳","4670");u_u9_pic.addimg("/__local/E/E8/2B/E699DDE5580F856B3AC922429C6_E01CBC94_20E25.jpg","/dongle/zh_CN/index.htm","董乐","4706");u_u9_pic.addimg("/__local/4/20/AF/5937A5171985383A6E0AEF8186F_D2873A0F_92AA0.jpg","/dongqiang/zh_CN/index.htm","董强","4974");
+});
+</script>
+<div class="ex_img">
+        <ul>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/longwenlai/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/longwenlai/zh_CN/index.htm" target="_blank"><img id="u_u9_11386pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/longwenlai/zh_CN/index.htm" target="_blank">龙文来</a></h2>
+                    <p></p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/hanshijiao/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/hanshijiao/zh_CN/index.htm" target="_blank"><img id="u_u9_14475pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/hanshijiao/zh_CN/index.htm" target="_blank">韩世蛟</a></h2>
+                    <p></p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/caihongbin/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/caihongbin/zh_CN/index.htm" target="_blank"><img id="u_u9_2425pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/caihongbin/zh_CN/index.htm" target="_blank">蔡洪斌</a></h2>
+                    <p>教授</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/caishimin/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/caishimin/zh_CN/index.htm" target="_blank"><img id="u_u9_5044pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/caishimin/zh_CN/index.htm" target="_blank">蔡世民</a></h2>
+                    <p>副教授</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/chenaiguo/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/chenaiguo/zh_CN/index.htm" target="_blank"><img id="u_u9_10700pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/chenaiguo/zh_CN/index.htm" target="_blank">陈爱国</a></h2>
+                    <p>研究员</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/chenduanbing/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/chenduanbing/zh_CN/index.htm" target="_blank"><img id="u_u9_4396pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/chenduanbing/zh_CN/index.htm" target="_blank">陈端兵</a></h2>
+                    <p>教授</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/chenfu/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/chenfu/zh_CN/index.htm" target="_blank"><img id="u_u9_1650pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/chenfu/zh_CN/index.htm" target="_blank">陈洑</a></h2>
+                    <p>工程师</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/chenjianzhang/en/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/chenjianzhang/en/index.htm" target="_blank"><img id="u_u9_11367pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/chenjianzhang/en/index.htm" target="_blank">陈建章</a></h2>
+                    <p></p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/chenjuan1/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/chenjuan1/zh_CN/index.htm" target="_blank"><img id="u_u9_4827pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/chenjuan1/zh_CN/index.htm" target="_blank">陈娟</a></h2>
+                    <p>副教授</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/chenting/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/chenting/zh_CN/index.htm" target="_blank"><img id="u_u9_5291pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/chenting/zh_CN/index.htm" target="_blank">陈厅</a></h2>
+                    <p>副教授</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/daibo/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/daibo/zh_CN/index.htm" target="_blank"><img id="u_u9_2560pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/daibo/zh_CN/index.htm" target="_blank">戴波</a></h2>
+                    <p>副教授</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/daiyuanshun/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/daiyuanshun/zh_CN/index.htm" target="_blank"><img id="u_u9_5061pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/daiyuanshun/zh_CN/index.htm" target="_blank">戴元顺</a></h2>
+                    <p>教授</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/dengjian/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/dengjian/zh_CN/index.htm" target="_blank"><img id="u_u9_1889pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/dengjian/zh_CN/index.htm" target="_blank">邓建</a></h2>
+                    <p>讲师</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/dingxuyang/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/dingxuyang/zh_CN/index.htm" target="_blank"><img id="u_u9_4670pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/dingxuyang/zh_CN/index.htm" target="_blank">丁旭阳</a></h2>
+                    <p>副教授</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/dongle/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/dongle/zh_CN/index.htm" target="_blank"><img id="u_u9_4706pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/dongle/zh_CN/index.htm" target="_blank">董乐</a></h2>
+                    <p>教授</p>
+
+                </span>
+            </li>
+
+ <li>
+<div class="head fl" style="width: 150px;height: 179px;display: block;">
+                <div class="jcrw" href="http://faculty.uestc.edu.cn/dongqiang/zh_CN/index.htm" style="line-height: 180px">
+                    <a href="http://faculty.uestc.edu.cn/dongqiang/zh_CN/index.htm" target="_blank"><img id="u_u9_4974pic" style="vertical-align:middle"></a>
+                </div>
+</div>
+                <span>
+                    <h2><a href="http://faculty.uestc.edu.cn/dongqiang/zh_CN/index.htm" target="_blank">董强</a></h2>
+                    <p>副教授</p>
+
+                </span>
+            </li>
+ </ul>
+ <div class="totality">
+
+<INPUT TYPE=hidden NAME=actiontype VALUE=""><input type=hidden name="urltype" value="tsites.CollegeTeacherList"><input type=hidden name="wbtreeid" value="1021"><input type=hidden name="st" value="0"><input type=hidden name="id" value="2031"><input type=hidden name="lang" value="zh_CN">
+<style type="text/css">
+.headStyle1fbqpqbekw, .headStyle1fbqpqbekw td, .headStyle1fbqpqbekw div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}
+.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: pointer; line-height:14px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#BDDBF7));background: -moz-linear-gradient( top,#ffffff,#BDDBF7);background:-ms-linear-gradient(top,#ffffff 0%,#bddbf7 100%)}
+.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}
+.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}
+.headStyle1fbqpqbekw a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1fbqpqbekw a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}
+.headStyle1fbqpqbekw .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1fbqpqbekw .SelectList {font-size: 12px;font-family:宋体;line-height:14px;}
+.headStyle1fbqpqbekw .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}
+.headStyle1fbqpqbekw .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}
+.headStyle1fbqpqbekw .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px; }
+.headStyle1fbqpqbekw .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}
+.headStyle1fbqpqbekw .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1fbqpqbekw a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}
+.headStyle1fbqpqbekw a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}
+.headStyle1fbqpqbekw a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}
+</style><script language=javascript src="/system/resource/js/gotopage.js"></script><script type="text/javascript">function a225575_gopage_fun(){_simple_list_gotopage_fun(9,'a225575GOPAGE',1)}</script><table cellspacing=0 cellpadding=0 border=0><TR><td colspan=1><table cellspacing=0 class=headStyle1fbqpqbekw width="100%" cellpadding=1><tr valign=middle><TD nowrap align=left width=1% id=fanye>共138条&nbsp;&nbsp;1/9&nbsp;</td><td nowrap align=left><div><span class=PrevDisabled>首页</span><span class=PrevDisabled>上页</span><a href="?totalpage=9&PAGENUM=2&urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2031&lang=zh_CN" class="Next">下页</a><a href="?totalpage=9&PAGENUM=9&urltype=tsites.CollegeTeacherList&wbtreeid=1021&st=0&id=2031&lang=zh_CN" class="Next">尾页</a>&nbsp;&nbsp;<input  align=absmiddle type=button class=defaultButtonStyle id=gotopagebut name='a225575Find'  value="转到"  onclick="javascript:a225575_gopage_fun()"><INPUT size=2  align=absmiddle  class="defaultInputStyle" style="margin-left:1px;margin-right:1px" NAME="a225575GOPAGE" id="a225575GOPAGE" VALUE="">页</div></td></tr></table></table>
+    </div>
+    </div>
+
+
+</div>
+
+
+</div>
+
+<!--底部-->
+<div class="footer">
+<div class="foot">
+   <div class="link fl">
+        <h1>友情链接</h1>
+           <a href="http://www.uestc.edu.cn"  title="" onclick="_addDynClicks(&#34;wburl&#34;, 1362264394, 4688)">电子科技大学官网</a>
+   <a href="http://en.uestc.edu.cn"  title="" onclick="_addDynClicks(&#34;wburl&#34;, 1362264394, 4689)">电子科技大学英文官网</a>
+
+
+
+    </div>
+
+
+
+<script language=javascript src=/system/resource/js/ajax.js></script><script language=javascript>_getBatchClickTimes('null',1362264394,'wbnews','u11')</script>
+<script>function seeContenta11(contentid,size,displayid){	document.getElementById(contentid).innerHTML = '[';	for(var i=0;i<=size;i++){		var allcontentid = contentid+(i+1);		if(allcontentid==displayid){			document.getElementById(contentid).innerHTML += " <span id='"+allcontentid+"' name='"+allcontentid+"'  >"+(i+1)+"</span> ";			document.getElementById(displayid).style.display = 'block';		}else{			document.getElementById(contentid).innerHTML += " <span style='cursor:pointer' id='"+allcontentid+"' name='"+allcontentid+"' onclick=seeContenta11('"+contentid+"','"+size+"','"+allcontentid+"')  >"+(i+1)+"</span> ";			document.getElementById(allcontentid).style.display = 'none';		}	}	document.getElementById(contentid).innerHTML += ']';}</script>
+<script>_addDynClicks('wbnews',1362264394,1012)</script>
+<div class="link fl">
+<h1>联系我们</h1>
+
+
+<a class="marui">
+
+
+      <div id="vsb_content_1012_u111" ><div id="vsb_content"><p><span style="font-size: 12px;">清水河校区：成都市高新区（西区）西源大道2006号<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 邮编： 611731 &nbsp; <br>沙河校区：成都市建设北路二段四号　邮编：610054</span><br></p></div></div>
+
+
+</a>
+</div>
+
+<style>
+.marui p {color:#777 !important;}
+</style>
+    <div class="link fl">
+        <h1>访问量</h1>
+        <script language="javascript" src="/system/resource/tsites/tsitesclick.js"></script>
+<div>总访问量：<a style="display: inline;" id="u12_click"></a></div>
+<script type="text/javascript" >jQuery(document).ready(function(){(new TsitesClickUtil()).getSiteClicksByType(document.getElementById('u12_click'),0,5,'site_total','0');})</script>
+
+
+<div>日访问量：<a style="display: inline;"  id="u13_click"></a></div><script type="text/javascript" >jQuery(document).ready(function(){(new TsitesClickUtil()).getSiteClicksByType(document.getElementById('u13_click'),0,5,'site_day','0');})</script>
+
+
+    </div>
+    <div class="link fl">
+
+
+
+
+        <a href="javascript:void(0);" title="手机版" onclick="_vsb_multiscreen.setDevice('mobile')" ><h1>手机版</h1></a>
+
+
+
+<!-- 下面这个div是二维码容器,ID不能变-->
+
+<span id="outputu15"></span>
+<!-- 下面是生成二维码调用的JS，不要动-->
+
+<script src="/system/resource/qrcode/js/jquery.qrcode.js"></script>
+<script src="/system/resource/qrcode/js/qrcode.js"></script>
+<script>
+var codeInfo = "" ==""? window.location.href:"";
+jQuery(function(){
+    jQuery('#outputu15').qrcode({
+        text:codeInfo,
+        render: !!document.createElement('canvas').getContext?"canvas":"table",//设置渲染方式
+        width: 116,     //设置宽度
+        height: 116,     //设置高度
+        correctLevel: 2,//纠错等级
+        background: "#ffffff",//背景颜色
+        foreground: "#000000",//前景颜色
+        logo:""//图像logo
+    });
+})
+</script>
+
+    </div>
+</div>
+
+    <div class="foot1">
+       <p>蜀ICP备 05006379 号 I　川公网安备 51019002000280 号</p>
+    </div>
+</div>
+</body>
+</html>

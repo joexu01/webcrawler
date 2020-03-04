@@ -2,6 +2,7 @@ package parser
 
 import (
 	"regexp"
+	"webcrawler/config"
 	"webcrawler/engine"
 )
 
@@ -16,8 +17,8 @@ func ParseSchoolList(contents []byte, _ string) engine.ParseResult {
 	result := engine.ParseResult{}
 	for _, m := range matches {
 		result.Requests = append(result.Requests, engine.Request{
-			Url:        domain + string(m[1]),
-			ParserFunc: ParseSchool,
+			Url:    domain + string(m[1]),
+			Parser: engine.NewFuncParser(ParseSchool, config.ParseSchool),
 		})
 	}
 	return result

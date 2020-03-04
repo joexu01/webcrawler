@@ -88,6 +88,10 @@
                 <th>职称</th>
                 <th>学历</th>
                 <th>学位</th>
+                <th>在职信息</th>
+                <th>所在单位</th>
+                <th>办公地点</th>
+                <th>邮箱</th>
             </tr>
             </thead>
             <tbody>
@@ -100,6 +104,10 @@
                         <td>{{ .Position }}</td>
                         <td>{{ .Education }}</td>
                         <td>{{ .Degree }}</td>
+                        <td>{{ .IsIncumbent }}</td>
+                        <td>{{ .School }}</td>
+                        <td>{{ .Location }}</td>
+                        <td>{{ .Email }}</td>
                     {{end}}
                 </tr>
             {{else}}
@@ -111,7 +119,7 @@
 
         <div class="layui-container" style="align-self: center">
             {{ if ge .PrevFrom 0 }}
-            <a class="layui-btn layui-btn-normal" href="search?q={{.Query}}&from={{.PrevFrom}}">上一页</a>
+                <a class="layui-btn layui-btn-normal" href="search?q={{.Query}}&from={{.PrevFrom}}">上一页</a>
             {{end}}
             <a class="layui-btn layui-btn-normal" href="search?q={{.Query}}&from={{.NextFrom}}">下一页</a>
         </div>

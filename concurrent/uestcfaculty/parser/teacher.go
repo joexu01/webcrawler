@@ -3,6 +3,7 @@ package parser
 import (
 	"regexp"
 	"strings"
+	"webcrawler/config"
 	"webcrawler/engine"
 	"webcrawler/model"
 )
@@ -59,13 +60,34 @@ func extractString(contents []byte, re *regexp.Regexp) string {
 	return ""
 }
 
-func TeacherParser(name string, position string) engine.ParserFunc {
-	return func(c []byte, url string) engine.ParseResult {
-		return ParseTeacherProfile(c, name, position, url)
-	}
-}
+// this function is deprecated!
+//func TeacherParser(name string, position string) engine.ParserFunc {
+//	return func(c []byte, url string) engine.ParseResult {
+//		return ParseTeacherProfile(c, name, position, url)
+//	}
+//}
 
 func getTeacherId(url string, idRe *regexp.Regexp) string {
 	id := idRe.FindSubmatch([]byte(url))
 	return string(id[1])
+}
+
+type ProfileParser struct {
+	Name     string
+	Position string
+}
+
+func (p *ProfileParser) Parse(contents []byte, url string) engine.ParseResult {
+	return ParseTeacherProfile(contents, p.Name, p.Position, url)
+}
+
+func (p *ProfileParser) Serialize() (name string, args interface{}) {
+	return config.ParseTeacherProfile, p.Name
+}
+
+func NewProfileParser(name string, position string) *ProfileParser {
+	return &ProfileParser{
+		Name:     name,
+		Position: position,
+	}
 }

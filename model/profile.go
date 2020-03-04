@@ -36,13 +36,13 @@ type TeacherProfile struct {
 	PersonalUrl   string
 }
 
-func FromJsonObjToTeacherProfile(o interface{}) (TeacherProfile, error) {
-	var profile TeacherProfile
-	s, err := json.Marshal(o)
-	if err != nil {
-		return profile, err
-	}
-
-	err = json.Unmarshal(s, &profile)
-	return profile, err
-}
+//func FromJsonObjToTeacherProfile(o interface{}) (TeacherProfile, error) {
+//	var profile TeacherProfile
+//	s, err := json.Marshal(o)
+//	if err != nil {
+//		return profile, err
+//	}
+//
+//	err = json.Unmarshal(s, &profile)
+//	return profile, err
+//}

@@ -1,0 +1,4 @@
+GET http://localhost:9200/teacher/_search
+Accept: application/json
+
+###

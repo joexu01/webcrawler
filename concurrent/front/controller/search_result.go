@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"strconv"
 	"strings"
-	"webcrawler/engine"
-	"webcrawler/front/model"
-	"webcrawler/front/view"
+	"webcrawler/concurrent/engine"
+	"webcrawler/concurrent/front/model"
+	"webcrawler/concurrent/front/view"
 )
 
 type SearchResultHandler struct {
@@ -17,12 +17,12 @@ type SearchResultHandler struct {
 	client *elastic.Client
 }
 
-func CreateSearchResultHandler(templateName string) SearchResultHandler{
+func CreateSearchResultHandler(templateName string) SearchResultHandler {
 	client, err := elastic.NewClient(elastic.SetSniff(false))
 	if err != nil {
 		panic(err)
 	}
-	
+
 	return SearchResultHandler{
 		v:      view.CreateSearchResultView(templateName),
 		client: client,

@@ -1,16 +1,18 @@
 package config
 
 const (
-	// Parser names
+	// Parser Names
 	ParseSchool         = "ParseSchool"
 	ParseSchoolList     = "ParseSchoolList"
 	ParseTeacherProfile = "ParseTeacherProfile"
-
 	NilParser = "NilParser"
 
-	// ElasticSearch
+	ItemSaverPort = 1234
 	ElasticIndex = "teacher"
 
-	// Rate limiting
-	Qps = 50
+	WorkerPort0 = 9000
+
+	// RPC Endpoints
+	ItemSaverRpc = "ItemSaveService.Save"
+	CrawlServiceRpc = "CrawlService.Process"
 )

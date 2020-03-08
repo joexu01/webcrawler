@@ -2,8 +2,8 @@ package parser
 
 import (
 	"regexp"
-	"webcrawler/config"
-	"webcrawler/engine"
+	"webcrawler/concurrent/config"
+	"webcrawler/concurrent/engine"
 )
 
 const schoolListJsp = `http://faculty.uestc.edu.cn/xylb.jsp`

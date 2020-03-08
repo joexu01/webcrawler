@@ -3,9 +3,9 @@ package parser
 import (
 	"regexp"
 	"strings"
-	"webcrawler/config"
-	"webcrawler/engine"
-	"webcrawler/model"
+	"webcrawler/concurrent/config"
+	"webcrawler/concurrent/engine"
+	"webcrawler/concurrent/model"
 )
 
 var (
@@ -17,7 +17,7 @@ var (
 	schoolRe      = regexp.MustCompile(`<[^>]+>所在单位：([^<]+)</[^>]+>`)
 	disciplineRe  = regexp.MustCompile(`<[^>]+>学科：([^<]+)</[^>]+>`)
 	locationRe    = regexp.MustCompile(`<[^>]+>办公地点：([^<]+)</[^>]+>`)
-	emailRe       = regexp.MustCompile(`<[^>]+>电子邮箱：([a-zA-Z0-9.]+)(@[a-zA-Z0-9.]+\.[a-zA-Z0-9.]+)</[^>]+>`)
+	emailRe       = regexp.MustCompile(`([a-zA-Z0-9.]+)(@[a-zA-Z0-9.]+\.[a-zA-Z0-9.]+)`)
 	IdRe          = regexp.MustCompile(`uestc.edu.cn/([^/]+)/`)
 )
 
@@ -73,21 +73,21 @@ func getTeacherId(url string, idRe *regexp.Regexp) string {
 }
 
 type ProfileParser struct {
-	Name     string
-	Position string
+	TeacherName string
+	Position    string
 }
 
 func (p *ProfileParser) Parse(contents []byte, url string) engine.ParseResult {
-	return ParseTeacherProfile(contents, p.Name, p.Position, url)
+	return ParseTeacherProfile(contents, p.TeacherName, p.Position, url)
 }
 
 func (p *ProfileParser) Serialize() (name string, args interface{}) {
-	return config.ParseTeacherProfile, p.Name
+	return config.ParseTeacherProfile, []string{p.TeacherName, p.Position}
 }
 
 func NewProfileParser(name string, position string) *ProfileParser {
 	return &ProfileParser{
-		Name:     name,
-		Position: position,
+		TeacherName: name,
+		Position:    position,
 	}
 }

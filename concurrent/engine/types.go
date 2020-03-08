@@ -1,6 +1,6 @@
 package engine
 
-import "webcrawler/config"
+import "webcrawler/concurrent/config"
 
 type ParserFunc func(contents []byte, url string) ParseResult
 

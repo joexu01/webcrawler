@@ -1,19 +1,27 @@
-package parser
+package main
 
 import (
-	"io/ioutil"
 	"testing"
+	"time"
 	"webcrawler/concurrent/engine"
 	"webcrawler/concurrent/model"
+	"webcrawler/distributed/rpcsupport"
 )
 
-func TestParseTeacherProfile(t *testing.T) {
-	contents, err := ioutil.ReadFile("./test_files/teacher_test.txt")
+func TestItemSaver(t *testing.T) {
+	const host = ":1234"
+	// Start ItemSaver Server
+	go serveRpc(host, "saver_test")
+	time.Sleep(time.Second)
+
+	// Start ItemSaver Client
+	client, err := rpcsupport.NewClient(host)
 	if err != nil {
-		t.Errorf("%v", err)
-		return
+		panic(err)
 	}
-	supposed := engine.Item{
+
+	// Call Save Service
+	item := engine.Item{
 		Url: "http://faculty.uestc.edu.cn/chenaiguo/zh_CN/index.htm",
 		Id:  "chenaiguo",
 		Payload: model.TeacherProfile{
@@ -31,10 +39,9 @@ func TestParseTeacherProfile(t *testing.T) {
 			PersonalUrl:   "http://faculty.uestc.edu.cn/chenaiguo/zh_CN/index.htm",
 		},
 	}
-
-	result := ParseTeacherProfile(contents,
-		"陈爱国", "研究员", "http://faculty.uestc.edu.cn/chenaiguo/zh_CN/index.htm")
-	if supposed != result.Items[0] {
-		t.Errorf("an error occued when verifying results: got %+v, supposed: %+v", result.Items[0], supposed)
+	var result string
+	err = client.Call("ItemSaveService.Save", item, &result)
+	if err != nil || result != "ok" {
+		t.Errorf("result: %s, error: %s", result, err)
 	}
 }

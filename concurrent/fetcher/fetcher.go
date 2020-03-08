@@ -11,7 +11,7 @@ import (
 	"log"
 	"net/http"
 	"time"
-	"webcrawler/config"
+	"webcrawler/concurrent/config"
 )
 
 var (
@@ -41,7 +41,6 @@ func Fetcher(url string) ([]byte, error) {
 	req.Header.Set("Proxy-Connection",
 		"keep-alive")
 	//req.Header.Set(`Upgrade-Insecure-Requests`, `1`)
-
 
 	resp, err := client.Do(req)
 	if err != nil {

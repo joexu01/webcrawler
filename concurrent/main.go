@@ -1,11 +1,11 @@
 package main
 
 import (
-	"webcrawler/config"
-	"webcrawler/engine"
-	"webcrawler/persist"
-	"webcrawler/scheduler"
-	"webcrawler/uestcfaculty/parser"
+	"webcrawler/concurrent/config"
+	"webcrawler/concurrent/engine"
+	"webcrawler/concurrent/persist"
+	"webcrawler/concurrent/scheduler"
+	"webcrawler/concurrent/uestcfaculty/parser"
 )
 
 func main() {

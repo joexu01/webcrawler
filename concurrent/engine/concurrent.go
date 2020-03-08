@@ -64,7 +64,7 @@ func (e *ConcurrentEngine) createWorker(in chan Request, out chan ParseResult, n
 			notifier.WorkerReady(in)
 
 			request := <-in
-			result, err := Worker(request)
+			result, err := e.RequestProcessor(request)
 			if err != nil {
 				continue
 			}

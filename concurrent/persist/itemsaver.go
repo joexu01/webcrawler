@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/olivere/elastic/v7"
 	"log"
-	"webcrawler/engine"
+	"webcrawler/concurrent/engine"
 )
 
 func ItemSaver(index string) (chan engine.Item, error) {

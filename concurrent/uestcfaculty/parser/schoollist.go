@@ -2,8 +2,8 @@ package parser
 
 import (
 	"regexp"
-	"webcrawler/config"
-	"webcrawler/engine"
+	"webcrawler/concurrent/config"
+	"webcrawler/concurrent/engine"
 )
 
 const domain = `http://faculty.uestc.edu.cn/`

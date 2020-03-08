@@ -2,7 +2,7 @@ package engine
 
 import (
 	"log"
-	"webcrawler/fetcher"
+	"webcrawler/concurrent/fetcher"
 )
 
 func Worker(r Request) (ParseResult, error) {

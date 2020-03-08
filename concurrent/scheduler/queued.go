@@ -1,6 +1,6 @@
 package scheduler
 
-import "webcrawler/engine"
+import "webcrawler/concurrent/engine"
 
 type QueuedScheduler struct {
 	requestChan chan engine.Request
@@ -29,7 +29,7 @@ func (s *QueuedScheduler) Run() {
 		for {
 			var activeRequest engine.Request
 			var activeWorker chan engine.Request
-			if len(requestQ) > 0 && len(workerQ) >0 {
+			if len(requestQ) > 0 && len(workerQ) > 0 {
 				activeRequest = requestQ[0]
 				activeWorker = workerQ[0]
 			}
@@ -42,7 +42,7 @@ func (s *QueuedScheduler) Run() {
 			case activeWorker <- activeRequest:
 				workerQ = workerQ[1:]
 				requestQ = requestQ[1:]
-				
+
 			}
 		}
 	}()

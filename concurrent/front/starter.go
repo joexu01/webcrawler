@@ -2,7 +2,7 @@ package main
 
 import (
 	"net/http"
-	"webcrawler/front/controller"
+	"webcrawler/concurrent/front/controller"
 )
 
 func main() {

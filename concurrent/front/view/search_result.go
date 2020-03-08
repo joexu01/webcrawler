@@ -3,7 +3,7 @@ package view
 import (
 	"html/template"
 	"io"
-	"webcrawler/front/model"
+	"webcrawler/concurrent/front/model"
 )
 
 type SearchResultView struct {
@@ -11,9 +11,9 @@ type SearchResultView struct {
 }
 
 func CreateSearchResultView(filename string) SearchResultView {
-	return SearchResultView{resultTemplate:template.Must(template.ParseFiles(filename))}
+	return SearchResultView{resultTemplate: template.Must(template.ParseFiles(filename))}
 }
 
-func (s SearchResultView)Render(w io.Writer, data model.SearchResult) error {
+func (s SearchResultView) Render(w io.Writer, data model.SearchResult) error {
 	return s.resultTemplate.Execute(w, data)
 }

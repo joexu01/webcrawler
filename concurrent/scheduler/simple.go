@@ -1,7 +1,7 @@
 package scheduler
 
 import (
-	"webcrawler/engine"
+	"webcrawler/concurrent/engine"
 )
 
 type SimpleScheduler struct {
@@ -19,7 +19,7 @@ func (s *SimpleScheduler) Run() {
 	s.workerChan = make(chan engine.Request)
 }
 
-func (s *SimpleScheduler)ConfigureMasterWorkerChan(c chan engine.Request)  {
+func (s *SimpleScheduler) ConfigureMasterWorkerChan(c chan engine.Request) {
 	s.workerChan = c
 }
 
@@ -29,8 +29,3 @@ func (s *SimpleScheduler) Submit(r engine.Request) {
 		s.workerChan <- r
 	}()
 }
-
-
-
-
-

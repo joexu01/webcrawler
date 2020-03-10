@@ -17,6 +17,7 @@ func ServeRpc(host string, service interface{}) error {
 	if err != nil {
 		return err
 	}
+	log.Printf("RPC Server is listening on %s", host)
 
 	for {
 		conn, err := listener.Accept()

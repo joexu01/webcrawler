@@ -18,14 +18,14 @@ func ItemSaver(host string) (chan engine.Item, error) {
 		itemCount := 0
 		for {
 			item := <-out
-			log.Printf("item saver: got item #%d: %v", itemCount, item)
+			log.Printf("item saver: got item #%d: %v\n", itemCount, item)
 			itemCount++
 
 			// call rpc to save item
 			var result string
 			err = client.Call(config.ItemSaverRpc, item, &result)
 			if err != nil {
-				log.Printf("Item Saver: error saving item %v: %v", item, err)
+				log.Printf("Item Saver: error saving item %v: %v\n", item, err)
 			}
 		}
 	}()

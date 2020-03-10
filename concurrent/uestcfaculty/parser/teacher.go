@@ -17,8 +17,8 @@ var (
 	schoolRe      = regexp.MustCompile(`<[^>]+>所在单位：([^<]+)</[^>]+>`)
 	disciplineRe  = regexp.MustCompile(`<[^>]+>学科：([^<]+)</[^>]+>`)
 	locationRe    = regexp.MustCompile(`<[^>]+>办公地点：([^<]+)</[^>]+>`)
-	emailRe       = regexp.MustCompile(`([a-zA-Z0-9.]+)(@[a-zA-Z0-9.]+\.[a-zA-Z0-9.]+)`)
-	IdRe          = regexp.MustCompile(`uestc.edu.cn/([^/]+)/`)
+	emailRe       = regexp.MustCompile(`([a-zA-Z0-9.]+@[a-zA-Z0-9.]+\.[a-zA-Z0-9.]+)`)
+ 	IdRe          = regexp.MustCompile(`uestc.edu.cn/([^/]+)/`)
 )
 
 func ParseTeacherProfile(contents []byte, name string, position string, url string) engine.ParseResult {

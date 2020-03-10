@@ -7,10 +7,7 @@ const (
 	ParseTeacherProfile = "ParseTeacherProfile"
 	NilParser = "NilParser"
 
-	ItemSaverPort = 1234
 	ElasticIndex = "teacher"
-
-	WorkerPort0 = 9000
 
 	// RPC Endpoints
 	ItemSaverRpc = "ItemSaveService.Save"

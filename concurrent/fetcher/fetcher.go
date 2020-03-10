@@ -28,6 +28,7 @@ func Fetcher(url string) ([]byte, error) {
 	//if verboseLogging {
 	//	log.Printf("Fetching url %s", url)
 	//}
+	log.Printf("Fetching url: %s", url)
 	client := &http.Client{}
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {

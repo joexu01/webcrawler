@@ -12,5 +12,5 @@ const (
 	ElasticIndex = "teacher"
 
 	// Rate limiting
-	Qps = 50
+	Qps = 20
 )

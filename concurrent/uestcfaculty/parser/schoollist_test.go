@@ -20,6 +20,6 @@ func TestParseSchoolList(t *testing.T) {
 		return
 	}
 	//fmt.Printf("%s\n%d", string(contents), resp.StatusCode)
-	s := ParseSchoolList(contents)
+	s := ParseSchoolList(contents, "")
 	fmt.Printf("%+v", s)
 }

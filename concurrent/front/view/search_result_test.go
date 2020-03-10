@@ -3,9 +3,9 @@ package view
 import (
 	"os"
 	"testing"
-	"webcrawler/engine"
-	"webcrawler/front/model"
-	common "webcrawler/model"
+	"webcrawler/concurrent/engine"
+	"webcrawler/concurrent/front/model"
+	common "webcrawler/concurrent/model"
 )
 
 func TestSearchResultView_Render(t *testing.T) {

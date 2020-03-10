@@ -3,10 +3,11 @@ package persist
 import (
 	"context"
 	"encoding/json"
-	"github.com/olivere/elastic/v7"
 	"testing"
-	"webcrawler/engine"
-	"webcrawler/model"
+	"webcrawler/concurrent/engine"
+	"webcrawler/concurrent/model"
+
+	"github.com/olivere/elastic/v7"
 )
 
 const index = "dating_test"

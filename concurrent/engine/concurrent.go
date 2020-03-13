@@ -57,7 +57,8 @@ func (e *ConcurrentEngine) Run(seeds ...Request) {
 	}
 }
 
-func (e *ConcurrentEngine) createWorker(in chan Request, out chan ParseResult, notifier ReadyNotifier) {
+func (e *ConcurrentEngine) createWorker(
+	in chan Request, out chan ParseResult, notifier ReadyNotifier) {
 	go func() {
 		for {
 			// tell scheduler i'm ready

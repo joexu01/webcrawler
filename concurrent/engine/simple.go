@@ -8,9 +8,10 @@ type SimpleEngine struct{}
 
 func (e SimpleEngine) Run(seeds ...Request) {
 	var requests []Request
-	for _, r := range seeds {
-		requests = append(requests, r)
-	}
+	// for _, r := range seeds {
+	// requests = append(requests, r)
+	// }
+	requests = append(requests, seeds...)
 
 	for len(requests) > 0 {
 		r := requests[0]

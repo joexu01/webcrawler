@@ -22,9 +22,9 @@ func FromJsonObjToProfile(o interface{}) (Profile, error) {
 }
 
 type TeacherProfile struct {
-	Name          string
-	Gender        string
-	GraduatedFrom string
+	Name          string //`json:"name"`
+	Gender        string //`json:"gender"`
+	GraduatedFrom string //`json:"graduated_from"`
 	Position      string
 	Education     string // 学历
 	Degree        string // 学位

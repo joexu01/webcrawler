@@ -60,7 +60,8 @@ func extractString(contents []byte, re *regexp.Regexp) string {
 	return ""
 }
 
-// this function is deprecated!
+//TeacherParser function is deprecated!
+//Deprecated: No need in distributed version,
 //func TeacherParser(name string, position string) engine.ParserFunc {
 //	return func(c []byte, url string) engine.ParseResult {
 //		return ParseTeacherProfile(c, name, position, url)

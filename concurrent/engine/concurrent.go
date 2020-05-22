@@ -41,7 +41,7 @@ func (e *ConcurrentEngine) Run(seeds ...Request) {
 	}
 
 	for {
-		result := <-out
+		result := <-out  // 1
 		for _, item := range result.Items {
 			go func(i Item) { e.ItemChan <- i }(item)
 		}
@@ -52,7 +52,7 @@ func (e *ConcurrentEngine) Run(seeds ...Request) {
 				log.Printf("duplicate url: %s", r.Url)
 				continue
 			}
-			e.Scheduler.Submit(r)
+			e.Scheduler.Submit(r)  // 2
 		}
 	}
 }
@@ -64,12 +64,12 @@ func (e *ConcurrentEngine) createWorker(
 			// tell scheduler i'm ready
 			notifier.WorkerReady(in)
 
-			request := <-in
+			request := <-in  // 3
 			result, err := e.RequestProcessor(request)
 			if err != nil {
 				continue
 			}
-			out <- result
+			out <- result  // 4
 		}
 	}()
 }

@@ -25,7 +25,7 @@ func ServeRpc(host string, service interface{}) error {
 			log.Printf("connection accept error: %s", err)
 			continue
 		}
-		jsonrpc.ServeConn(conn)
+		go jsonrpc.ServeConn(conn)
 	}
 }
 

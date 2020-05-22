@@ -1,6 +1,8 @@
 package scheduler
 
-import "webcrawler/concurrent/engine"
+import (
+	"webcrawler/concurrent/engine"
+)
 
 type QueuedScheduler struct {
 	requestChan chan engine.Request
@@ -19,6 +21,7 @@ func (s *QueuedScheduler) WorkerReady(w chan engine.Request) {
 	s.workerChan <- w
 }
 
+//Run运行时维护两个队列
 func (s *QueuedScheduler) Run() {
 	s.workerChan = make(chan chan engine.Request)
 	s.requestChan = make(chan engine.Request)
@@ -42,7 +45,6 @@ func (s *QueuedScheduler) Run() {
 			case activeWorker <- activeRequest:
 				workerQ = workerQ[1:]
 				requestQ = requestQ[1:]
-
 			}
 		}
 	}()
